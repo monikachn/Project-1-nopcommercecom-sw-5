@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Top Menu[[[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li]]]]>
+    </line>
+    <line>
+      <![CDATA[Get text Computer[[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //h1[contains(text(),'Computers')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="9662" started-at="2023-05-09T10:00:26 BST" finished-at="2023-05-09T10:00:35 BST">
+    <groups>
+      <group name="regression">
+        <method signature="TopMenuTest.verifyPageNavigation()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@5d76b067]" name="verifyPageNavigation" class="com.nopcommerce.demo.testsuite.TopMenuTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TopMenuTest.verifyPageNavigation()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@5d76b067]" name="verifyPageNavigation" class="com.nopcommerce.demo.testsuite.TopMenuTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Project-1-nopcommercecom-sw-5" duration-ms="9662" started-at="2023-05-09T10:00:26 BST" finished-at="2023-05-09T10:00:35 BST">
+      <class name="com.nopcommerce.demo.testsuite.TopMenuTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@5d76b067]" name="setUp" is-config="true" duration-ms="7223" started-at="2023-05-09T10:00:26 BST" finished-at="2023-05-09T10:00:33 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@5d76b067]" name="inIt" is-config="true" duration-ms="69" started-at="2023-05-09T10:00:33 BST" finished-at="2023-05-09T10:00:33 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyPageNavigation()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@5d76b067]" name="verifyPageNavigation" duration-ms="1129" started-at="2023-05-09T10:00:33 BST" finished-at="2023-05-09T10:00:35 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Top Menu[[[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //ul[@class='top-menu notmobile']/li]]]]>
+            </line>
+            <line>
+              <![CDATA[Get text Computer[[ChromeDriver: chrome on WINDOWS (c5de4b7e1aeb58306b64122070a756b0)] -> xpath: //h1[contains(text(),'Computers')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@5d76b067]" name="tearDown" is-config="true" duration-ms="852" started-at="2023-05-09T10:00:35 BST" finished-at="2023-05-09T10:00:35 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.TopMenuTest -->
+    </test> <!-- Project-1-nopcommercecom-sw-5 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
